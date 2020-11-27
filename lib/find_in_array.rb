@@ -5,10 +5,7 @@ def find_element_index(array, value_to_find)
     if array[count] == value_to_find
       found_value_index = count
     end 
-    
-  puts array[count] == value_to_find
-  
-  count +=1
-end 
-
+    count +=1
+  end 
+  found_value_index
 end
